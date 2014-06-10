@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <title>Yearbook</title>
+    <style type="text/css">
+
+    	body {
+    		background-color:black;
+    	}
+
+        .container {
+        	margin: 0 auto;
+        	border-width: 1px;
+        	border-color: black;
+        	border-style: solid;
+        	background-color:#574DD8;
+        	width:660px;
+        	display:flex;
+        	flex-direction: row;
+        	flex-wrap: wrap;
+        	font-family: 'Abel', sans-serif;
+
+        }
+
+        .pic {
+        	border-width: 1px;
+        	border-color: #60D4AE;
+        	border-style: solid;
+        	display: inline-block;
+        	height:300px;
+        	width:198px;
+        	position: relative;
+        	text-align:center;
+        	padding:10px;
+        	
+        }
+
+        .pic:hover > .picture {
+        	-webkit-transition-duration: 1s;
+        	-webkit-transform: rotateY(180deg);
+        	-webkit-backface-visibility:hidden;
+        	
+        }
+
+        .picture {
+        	top:0;
+        	left:0;
+        	height:100%;
+        	width: 100%;
+        	position:absolute;
+        	background-size: cover;
+        	background-position: center;
+        	opacity:1;
+        	transition:1s;
+        	-webkit-backface-visibility:hidden;
+
+        }
+
+        .picture:hover {
+        	opacity:.5;
+        }
+
+        .description {
+        	color:white;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class = "container">
+	<div class = "pic">
+		<div class = "description"><h1>January</h1>My super artsy suitemate does a photoshoot with Drake laughing at him.</div>
+	<div class = "picture" style="background-image: url('images/jan.PNG');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>February</h1>The illustrious Abhijoy Mitra at his finest during SigEp rush.</div>
+		<div class = "picture" style="background-image: url('images/feb.PNG');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>March</h1>Some really fancy Cuban street art. Viva la Revolucion!</div>
+		<div class = "picture" style="background-image: url('images/mar.JPG');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>April</h1>Freshman Olympics, in which Ezra Stiles did not place in a single athletic event and STILL got fourth place, demonstrating our coolness.</div>
+		<div class = "picture" style="background-image: url('images/apr.JPG');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description"><h1>May</h1>DOUBLE RAINBOW ALL THE WAY bidding farewell to graduating seniors</div>
+		<div class = "picture" style="background-image: url('images/may.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>June</h1>Natalia getting really frickin' intense during karaoke.</div>
+		<div class = "picture" style="background-image: url('images/jun.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>July</h1>My brother playing with AirShark.</div>
+		<div class = "picture" style="background-image: url('images/jul.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description">	<h1>August</h1>CAT CAT CAT in a sink. Not givin' a damn. (His name is Hobo)</div>
+		<div class = "picture" style="background-image: url('images/aug.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description"><h1>September</h1>A really, really awesome old guy and his wife teach us squaredancing.</div>
+		<div class = "picture" style="background-image: url('images/sep.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description"><h1>October</h1>"I once saw that band when it was still underground. Like literally in an abandoned basement."</div>
+		<div class = "picture" style="background-image: url('images/oct.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description"><h1>November</h1>Holy Land U.S.A.- Connecticut's finest and scariest urban exploration location.</div>
+		<div class = "picture" style="background-image: url('images/nov.jpg');"></div>
+	</div>
+	<div class = "pic">
+		<div class = "description"><h1>December</h1>Selfies with Wilson.</div>
+		<div class = "picture" style="background-image: url('images/dec.jpg');"></div>
+	</div>
+
+</div>
+
+</body>
+
+</html>
